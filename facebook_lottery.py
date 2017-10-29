@@ -4,8 +4,8 @@ from random import *
 import time
 
 user = []
-post = "241289886074076_781067592096300"
-token = "EAACEdEose0cBACiQfp2lHltyC0ArWpdyJvqp8nDl0i4mQCB1QZAYDRRqug3krTmxaFfm1Y30UI0u249ig0xI7cJahS9ytEjVMJYdEN4t91Pq9rSuyOOV8KEegZBsU8ZBLFO3571jGpH048kjwfbD0yYpx4Mm2yZBZBTve3dYxIXQWxI368t7cP7eEU3L5tryGsIUiFF0V6QZDZD"
+post = "" # Post number(page_post)
+token = "" # Your access token
 limit = "5000"
 
 r = requests.get("https://graph.facebook.com/"+post+"/comments/?access_token="+token+"&limit="+limit)
